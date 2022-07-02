@@ -1,0 +1,120 @@
+/* Cabecera titulo*/
+
+header.encabezado {
+    display: flex;
+    justify-content: space-between; 
+    background-color: #BBBBBB;
+  }
+
+header.encabezado div.encabezado__menu h1.titulo-principal{
+    display:flex;
+    flex-direction: row;
+    justify-items: auto;
+    margin: 1rem 0 2rem 3rem ;
+    font-size: 3rem;
+    font-weight: 800;
+}
+/* Cabecera menú */
+header.encabezado nav.encabezado-menu__lista ul li.lista__enlace{
+    display:inline-flex;
+    margin: 2rem 3rem auto;
+    font-size: 1.5rem;
+    
+}
+header.encabezado nav.encabezado-menu__lista ul li.lista__enlace a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform:capitalize;
+}
+header.encabezado nav.encabezado-menu__lista ul li.lista__enlace a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+/* Banner */
+section.contenedor img.banner{
+    width:100%;
+    margin: 0;
+}
+
+/* Seccion Sobre la Barberia Alura   */
+section.contenedor{
+   background: #cccccc;
+   
+}
+section.contenedor div.principal h2.titulo-centralizado{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1rem 0 2rem 0;
+    font-weight: 700;
+}
+
+section.contenedor div.principal{
+    margin: 0 3rem 3rem 3rem;
+}
+section.contenedor div.principal p{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+section.contenedor div.principal p em strong{
+    color:red;
+    font-size: 1.8rem;
+}
+section.contenedor div.principal p#mision{
+    font-size: 1.3remx;
+    margin: 1rem 0 1rem 0 ;
+    font-weight: 700;
+}
+
+/* Seccion Direfenciales */
+
+section.contenedor  div.diferenciales{
+    background: #FFFFFF;
+    padding: 2rem;
+    
+}
+section.contenedor  div.diferenciales h3.titulo-centralizado{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1rem 0 2rem 0;
+    font-weight: 700;
+}
+
+section.contenedor  div.diferenciales div.diferenciales__contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section.contenedor  div.diferenciales ul li.items{
+    font-style: italic;
+    margin: 3rem 3rem 0 0;
+}
+
+section.contenedor  div.diferenciales div.diferenciales__contenido img.imagenDiferenciales{
+    width: 30%;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    
+    
+}
+section.contenedor  div.diferenciales div.diferenciales__contenido img.imagenDiferenciales:hover{
+    opacity: 80%;
+    width: 31%;
+    box-shadow: 15px 15px 50px ;
+   
+}
+footer.piePagina{
+    
+    background: url(/imagenes/bg.jpg);
+    padding:0rem;
+    text-align: center;
+}
+footer.piePagina p.piePagina__copyright{
+    color: #FFFFFF;
+
+}
+
+
