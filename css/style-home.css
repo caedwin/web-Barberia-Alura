@@ -108,7 +108,7 @@ section.contenedor  div.diferenciales div.diferenciales__contenido img.imagenDif
 }
 footer.piePagina{
     
-    background: url(/imagenes/bg.jpg);
+    background: url(../imagenes/bg.jpg);
     padding:0rem;
     text-align: center;
 }
